@@ -47,13 +47,13 @@ def main():
     person2 = Person("John Lewis", "466 Tree Road, Bridgington", 47, "910-093-2245")
     person3 = Person("Ron Deer", "590 Kensington Street, Bloomdale", 22, "810-969-7118")
     
-  # Display information for the 3 people
-  print("Person 1 Information:")
-  print(person1)
-  print("\nPerson 2 Information:")
-  print(person2)
-  print("\nPerson 3 Information:")
-  print(person3)
+    # Display information for the 3 people
+    print("Person 1 Information:")
+    print(person1)
+    print("\nPerson 2 Information:")
+    print(person2)
+    print("\nPerson 3 Information:")
+    print(person3)
 
 if __name__ == "__main__":
       main()
