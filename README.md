@@ -57,3 +57,57 @@ def main():
 
 if __name__ == "__main__":
       main()
+
+
+Exercise 1
+
+class Pet:
+    def __init__(self, name= " " ,animal_type= " ", age=0)
+        self._name = name
+        self._animal_type = animal_type
+        self._age = age
+
+    # Mutator method
+    def set_name(self, name):
+        self._name = name
+
+    def set_animal_type(self, animal_type):
+        self._animal_type = animal_type
+
+    def set_age(self, age):
+        self._age = age
+
+    # Accesor methods
+    def get_name(self):
+        return self._name
+
+    def get_animal_type(self):
+        return self._animal_type
+
+    def get_age(self):
+        return self._age
+    
+# Main program
+def main():
+    # Create a Pet object
+    pet = Pet()
+
+    # Prompt user for pet information
+    name = input("Enter the name of your pet: ")
+    animal_type = input("Enter the type of animal: ")
+    age = int(input("Enter the age of your pet: "))
+
+    # Set the attributes using setter methods
+    pet.set_name(name)
+    pet.set_animal_type(animal_type)
+    pet.set_age(age)
+
+    # Display pet information using getter methods
+    print("\nPet Information: ")
+    print(f"Name: {pet.get_name()}")
+    print(f"Type: {pet.get_animal_type()}")
+    print(f"Age: {pet.get_age()}")
+
+if __name__ == "__main__"
+    main()
+
