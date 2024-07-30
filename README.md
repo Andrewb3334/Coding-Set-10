@@ -62,7 +62,7 @@ if __name__ == "__main__":
 Exercise 1
 
 class Pet:
-    def __init__(self, name= " " ,animal_type= " ", age=0)
+    def __init__(self, name= " " ,animal_type= " ", age=0):
         self._name = name
         self._animal_type = animal_type
         self._age = age
@@ -108,6 +108,6 @@ def main():
     print(f"Type: {pet.get_animal_type()}")
     print(f"Age: {pet.get_age()}")
 
-if __name__ == "__main__"
+if __name__ == "__main__":
     main()
 
